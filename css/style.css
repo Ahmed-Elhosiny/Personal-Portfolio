@@ -1,0 +1,302 @@
+aside {
+    overflow: hidden;
+    width: 20%;
+
+    float: left;
+    /* border: 3px solid #6969b7; */
+    border-radius: .4em;
+    padding: 1em;
+}
+aside:hover {
+    font-size: 1.4em;
+}
+* {
+    box-sizing: border-box;
+    line-height: 1.3em;
+    /* text-align: center; */
+  
+}
+#page {
+    width: 50%;
+    margin: auto;
+  
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.2em;
+    /* border: 3px solid #6969c4; */
+    margin: 20px;
+    
+}  
+div {
+    overflow: hidden;
+}
+/* link starts*/
+a {
+    text-decoration: none;
+    color: #6969b7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+a:hover {
+    font-size: 1.05em;
+    color: #0e0e29;
+}
+/* link ends*/     
+                    /* Elements style ends*/
+                    /***********************/
+/* header starts */
+header {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid #6969c4;
+    /* margin-top: 7em; */
+}
+
+header p{
+    color: #888;
+    border: none;
+}
+/* header ends */
+
+                        /***********************/
+
+/*navigation starts*/
+nav {
+    /* position: fixed; */
+    /* top: 1em; */
+    /* width: 50%; */
+    margin: auto;
+    border-bottom: 2px solid #6969c4;
+    text-align: center;
+    
+}
+ li{
+    
+    list-style: none;
+    display: inline-flex;
+    margin: 0 1em;
+
+}
+nav ul {
+
+    width: 100%;     
+    margin: 1em auto;
+    padding-bottom: 1em;
+    padding-top: 1em;
+   
+    /* background-color: #3030ab; */
+
+}
+
+/*navigation ends*/
+                        /***********************/
+
+/* headings starts*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: cursive;
+    color: #6969c4;
+}
+/* headings ends */
+
+                        /***********************/
+/* skills starts*/
+#skills {
+    text-align: center;
+    margin-top: 1em;
+    padding: .4em;
+    border: 3px solid #6969b7;
+    border-radius: 1em;
+    
+}
+#skills h3 {
+    text-align: center;
+}
+
+.skill-container {
+    /* border: 4px outset #6969b7; */
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+.skill-range {
+    width: 80%;
+    margin: auto;
+}
+.skill {
+    text-align: right;
+    padding-top: 10px 0;
+    color: white;
+    background-color: #3b3b71;
+}
+#skills p{
+    color: #888;
+}
+.datastructure {
+    width: 70%;
+ 
+}
+.algorithms {
+    width: 60%;
+    
+}
+.html {
+    width: 80%;
+    
+}
+.css {
+    width: 75%;
+ 
+}
+.js {
+    width: 5%;
+}
+.win {
+    width: 90%;
+}
+.lin {
+    width: 40%;
+}
+
+.mac {
+    width: 0%;
+}
+/* skills ends*/
+
+/* Account starts*/
+#accounts {
+    margin-top: 1em;
+    border: 4px solid #636389;
+    border-radius: 1em;
+    text-align: center;
+}
+.account {
+    width: 50%;
+    margin: 0 auto;
+}
+.account ul li {
+    margin: 1em;
+  
+}
+
+.account img {
+    width: 4em;
+    height: 4em;
+}
+/* Accounts ends*/
+
+/* contact starts*/
+#contacts {
+    margin-top: 1em;
+    border: 4px solid #636389;
+    border-radius: 1em;
+    text-align: center;
+}
+.contact {
+    width: 50%;
+    margin: 0 auto;
+}
+.contact img {
+    margin: 1em;
+    width: 4em;
+    height: 4em;
+}
+/* contact end*/
+
+/* certificates starts*/
+h2{
+    
+    /* width: 70%; */
+    border-bottom: 2px solid #3b3b71;
+    border-radius: 5em;
+    padding-bottom: .5em;
+    
+}
+#certificates {
+    margin-top: 1em;
+    border: 4px solid #636389;
+    border-radius: 1em;
+    text-align: center;
+}
+.certificate-images {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image {
+    margin: 1em 0;
+}
+.image:hover{
+    border: 2px solid black;
+    border-radius: .2em;
+}
+.image img {
+  
+    width: 100%;
+    height: auto;
+}
+.disc {
+    padding: 5px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius:.5em;
+    background-color: rgb(207, 236, 222);
+}
+/* certificates ends*/
+
+/* Footer starts*/
+
+footer {
+    margin-top: 1em;
+}
+#copyrights {
+    text-align: center;
+    color: #888;
+    
+}
+
+/* form textarea{
+    text-align: left;
+} */
+input {
+    margin-bottom: 1em;
+}
+label {
+    color: #6969c4;
+}
+#submit {
+    background-color: #3b3b71;
+    color: white;
+    border-radius: 1em;
+}
+#submit:hover {
+    padding: .3em;
+}
+/* Footer ends*/
+
+/* Scroll to Top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #3b3b71;
+    color: white;
+    cursor: pointer;
+    padding: .8em;
+    border-radius: 1.3em;
+  }
+  
+  #myBtn:hover {
+    background-color: #636389;
+  }
